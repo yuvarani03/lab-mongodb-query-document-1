@@ -1,4 +1,4 @@
-
+![Image description](https://i1.faceprep.in/ProGrad/prograd-logo.png)
 # MongoDB | Query Document-1
 
 ## Introduction
@@ -40,7 +40,7 @@ Since we will be querying our database from Mongo Compass, you will need to copy
 
 ## Instructions
 
-### Iteration 1
+### Progression 1
 
 First, we need to import the database we will be using for the `lab`. We will use the Crunchbase database. Crunchbase is the premier destination for discovering industry trends, investments, and news about hundreds of thousands of companies globally. From startups to Fortune 500s, Crunchbase is recognized as the primary source of company intelligence by millions of users globally.
 
@@ -66,7 +66,7 @@ _Side note_: In case errors or hanging with no response when running this comman
 
 ![image](https://user-images.githubusercontent.com/23629340/36534191-1f1bc5ec-17c6-11e8-9463-4945679b98c0.png)
 
-### Iteration 2
+### Progression 2
 
 You already know how this goes, so let's start working:
 
