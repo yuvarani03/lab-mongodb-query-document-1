@@ -1,5 +1,5 @@
 ![Image description](https://i1.faceprep.in/ProGrad/prograd-logo.png)
-# PROGRAD LABS | MONGODB | WORKING WITH QUERY
+# PROGRAD LABS | MONGODB | WORKING WITH QUERY - MODULE 1
 
 ## Introduction
 
@@ -24,21 +24,9 @@ $ git push origin master
 
 - Create Pull Request so your mentor can check up your work.
 
-## Deliverables
-
-Since we will be querying our database from Mongo Compass, you will need to copy/paste the `query`, `projection`, `sort`, `skip` and `limit` you entered on Mongo Shell. In the `PROGRESSION 2`, you will find the instructions about the queries you need to do.
-
-### Example
-
-1. This is an example
-
-- **`query`**: /_You should copy/paste the query in here_/
-- **`projection`**: /_You should copy/paste the projection in here_/
-- **`sort`**: /_You should copy/paste the sort in here_/
-- **`skip`**: /_You should copy/paste the skip in here_/
-- **`limit`**: /_You should copy/paste the limit in here_/
-
 ## Instructions
+
+Since we will be querying our database from Mongo Shell, you will need to copy/paste the `query`, `projection`, `sort`, `skip` and `limit` you entered on Mongo Shell. In the `PROGRESSION 2`, you will find the instructions about the queries you need to do.
 
 ### Progression 1
 
@@ -46,19 +34,17 @@ First, we need to import the database we will be using for the `lab`. We will us
 
 The database contains more than 18k documents. Each document holds the data about each of the companies. A document looks like the following:
 
-1. You will find the `companies.json` file of the database on the **lab** folder.
+1. You will find the `companies.json` file of the database on the **dataset.zip** folder.
 2. Unzip the file
 3. Navigate to this lab's folder in your terminal, and when inside, import the database to Mongo using the following command:
 
 **When running the `mongoimport` you should be located in the same folder as the `data.json` file.**
 
 ```bash
-$ mongoimport --db companiesDB --collection companies --file data.json
+$ mongoimport --db companiesDB --collection companies --file companies.json
 ```
 
-What this mongoimport will do for us is to create a database named _companiesDB_, and inside the database will create a collection named _companies_ which will be fed with _data.json_.
-
-_Side note_: In case errors or hanging with no response when running this command, add [--jsonArray](https://docs.mongodb.com/manual/reference/program/mongoimport/#cmdoption-mongoimport-jsonarray) at the end of the previous command.
+What this mongoimport will do for us is to create a database named _companiesDB_, and inside the database will create a collection named _companies_ which will be fed with _companies.json_.
 
 4. Check on Mongo Compass if everything goes ok:
 
