@@ -1,5 +1,5 @@
 ![Image description](https://i1.faceprep.in/ProGrad/prograd-logo.png)
-# MongoDB | Query Document-1
+# PROGRAD LABS | MONGODB | WORKING WITH QUERY
 
 ## Introduction
 
@@ -26,7 +26,7 @@ $ git push origin master
 
 ## Deliverables
 
-Since we will be querying our database from Mongo Compass, you will need to copy/paste the `query`, `projection`, `sort`, `skip` and `limit` you entered on Mongo Compass. In the `queries.md` file, you will find the instructions about the queries you need to do, and a field to fill the answers.
+Since we will be querying our database from Mongo Compass, you will need to copy/paste the `query`, `projection`, `sort`, `skip` and `limit` you entered on Mongo Shell. In the `PROGRESSION 2`, you will find the instructions about the queries you need to do.
 
 ### Example
 
@@ -46,9 +46,7 @@ First, we need to import the database we will be using for the `lab`. We will us
 
 The database contains more than 18k documents. Each document holds the data about each of the companies. A document looks like the following:
 
-![image](https://user-images.githubusercontent.com/23629340/36494916-d6db1770-1733-11e8-903e-5119b3c1b688.png)
-
-1. You will find the `.zip` file of the database on the **lab** folder.
+1. You will find the `companies.json` file of the database on the **lab** folder.
 2. Unzip the file
 3. Navigate to this lab's folder in your terminal, and when inside, import the database to Mongo using the following command:
 
